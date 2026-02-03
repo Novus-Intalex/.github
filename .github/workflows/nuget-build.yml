@@ -7,9 +7,6 @@ on:
         description: 'Tag to build (e.g., 1.0.1 or v1.0.1)'
         required: false
         type: string
-    secrets:
-      GITHUB_TOKEN:
-        required: true
 
 env:
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
